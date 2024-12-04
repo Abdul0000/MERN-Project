@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 3px;
+  text-align: center;
+}
+
+.card {
+  /* min-width: 20rem; */
+  margin: 20px;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.app-container{
+  display: flex;
+}
+.content{
+  width: 100%;
+}
+.side-bar{
+  min-height: 550px;
+  padding-left: 0px;
+}
+
+.tag-style{
+  border-radius: 5px;
+  background-color:rgb(0, 94, 255);
+  padding-bottom: 7px;
+  padding-top: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin: 3px;
+}
+
+.alert{
+  margin-top: 30px;
+}
+
+.create-post{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 30px;
+  text-align: left;
+}
+.no-posts{
+  text-align: center;
+  margin: 50px;
+}
+.spinner{
+  margin: 10% 0;
+}

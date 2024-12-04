@@ -1,0 +1,21 @@
+*{
+  margin-top:20px
+}
+.watch{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.time{
+  margin-left:50%;
+}
+.buttons{
+  width: 100px;
+  height: 40px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.btn-position{
+  margin-left: 40%;
+}
