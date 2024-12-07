@@ -1,0 +1,60 @@
+*{
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input{
+  min-width: 500px;
+  min-height: 38px;
+  margin-right: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.413);
+  border-radius: 8px;
+  background-color: #ffffffe4;
+}
+.button{
+  min-width: 70px;
+  min-height: 38px;
+  margin-right: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.413);
+  border-radius: 8px;
+}
+
+.cards-container {
+  margin-top: 40px;
+}
+
+.custom-card {
+  width: 315px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.img{
+  width: 285px;
+  height: 190px;
+  border-radius: 8px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.recipe-button{
+  min-width: 70px;
+  min-height: 30px;
+  margin-right: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.413);
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.card-content{
+  display: flex;
+  justify-content: space-between;
+}
+.meal-info {
+  width: 90%;
+  text-align: left;
+}
+
