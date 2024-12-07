@@ -1,0 +1,136 @@
+.todo-app{
+  display: flex;
+}
+.header{
+  /* background-color: green; */
+  margin-top: 50px;
+  margin-left: 280px;
+  margin-bottom:25px
+
+}
+.input-header{
+  width: 500px;
+  height: 60px;
+  border: 1px solid #00000088;
+  border-radius: 10px;
+  padding: 15px;
+  margin-right: 20px;
+}
+.button{
+  height: 55px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  /* padding: 10px; */
+  background-color: cadetblue;
+  font-size: 18px;
+}
+
+.item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+
+}
+.task{
+  width: 600px;
+  height:60px;
+  background-color: rgba(137, 43, 226, 0.235);
+  margin-left: 140px;
+  border: 1px solid #00000088;
+  border-radius: 10px;
+  padding: 15px;
+}
+.button-completed{
+  height: 50px;
+  width: 150px;
+  background-color: rgba(0, 128, 0, 0.849);
+  border-radius: 10px;
+  border: none;
+  color: white;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  /* margin:20px; */
+}
+.button-delete{
+  height: 50px;
+  width: 100px;
+  background-color: rgba(128, 0, 0, 0.849);
+  border-radius: 10px;
+  border: none;
+  color: white;
+  margin-right: 10px;
+  margin-bottom: 15px
+}
+
+
+.side-bar {
+  width: 250px;
+  transition: width 0.3s;
+  overflow: hidden;
+}
+
+.side-bar.collapsed {
+  width: 40px;
+}
+
+.icon-container {
+  cursor: pointer;
+  padding: 10px;
+  margin: 15px;
+}
+
+.menu-content {
+  padding: 10px;
+}
+.menu-content ul li {
+  list-style: none;
+  margin: 14px;
+  color: white;
+  background-color: #0000ff94;
+  width: 80px;
+  height: 35px;
+  padding-left: 15px;
+  padding-top: 5px;
+  border-radius: 30px;
+}
+.collapsed .menu-content {
+  display: none;
+}
+
+.button-edit{
+  height: 50px;
+  width: 100px;
+  background-color: rgba(255, 0, 0, 0.874);
+  border-radius: 10px;
+  border: none;
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 15px
+}
+.button-save{
+  height: 50px;
+  width: 100px;
+  background-color: rgba(11, 62, 18, 0.874);
+  border-radius: 10px;
+  border: none;
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 15px
+}
+
+.task-input{
+  width: 598px;
+  height:58px;
+  padding-left: 12px;
+  /* background-color: rgba(137, 43, 226, 0.235); */
+  /* margin-left: 140px; */
+  /* border: 1px solid #00000088; */
+  border-radius: 10px;
+  margin-top: -15px;
+  margin-left: -15px;
+  border: none;
+  /* padding: 15px; */
+}
