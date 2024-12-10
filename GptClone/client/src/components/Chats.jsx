@@ -22,7 +22,6 @@ const Chats = () => {
   const [signupPopup, setSignupPopup] = useState(false);
   const [forgetPopup, setForgetPopup] = useState(false);
 
-  // const [responses, setResponses] = useState([]);
   const genAI = new GoogleGenerativeAI("YOUR_API_KEY");
   const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
@@ -33,7 +32,6 @@ const Chats = () => {
         `${prompt} \`\`\`Correct and relevant to prompt not too long\`\`\`context`
       );
       if (result) {
-        // store.dispatch(setCheck())
         store.dispatch(
           setResponses({ prompt, result: result.response.text() })
         );
