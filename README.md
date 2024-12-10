@@ -1,2 +1,2 @@
 # MERN stack-Projects
-MERN stack project Web store 
+MERN stack projects
